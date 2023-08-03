@@ -153,26 +153,58 @@ int main(){
     //   1 2 3 4 5
     //   1 2 3 4 5
 
-    for (int i = 1; i <= 5; i++)
-    {
-        for (int j = 1; j <= 5; j++)
-        {
-            cout<<" "<< j <<" ";
-        }
-        cout<<endl;
+    // for (int i = 1; i <= 5; i++)
+    // {
+    //     for (int j = 1; j <= 5; j++)
+    //     {
+    //         cout<<" "<< j <<" ";
+    //     }
+    //     cout<<endl;
         
-    }
+    // }
+
+    //4. 5 4 3 2 1
+    //   5 4 3 2 1
+    //   5 4 3 2 1
+    //   5 4 3 2 1
+    //   5 4 3 2 1
     
 
-    //. *
+    // for (int i = 1; i <= 5; i++)
+    // {
+    //     for (int j = 1; j <= 5; j++)
+    //     {
+    //         cout<<" "<< 5-j+1 <<" ";
+    //     }
+    //     cout<<endl;
+        
+    // }
+
+    //5. 1 2 3
+    //   4 5 6
+    //   7 8 9
+    // int n = 1;
+    // for (int i = 0; i < 3; i++)
+    // {
+    //     for (int j = 0; j < 3; j++)
+    //     {
+    //         cout<<" "<<n<<" ";
+    //         n++;
+    //     }
+    //     cout<<endl;
+    // }
+    
+    
+
+    //6. *
     //   * *
     //   * * *
     //   * * * * 
     //   * * * * *
 
-    // for (int i = 0; i < 5; i++)
+    // for (int i = 1; i <= 5; i++)
     // {
-    //     for (int j = 0; j <= i; j++)
+    //     for (int j = 1; j <= i; j++)
     //     {
     //         cout<<" * ";
     //     }
@@ -180,6 +212,81 @@ int main(){
         
     // }
 
+    //7. 1
+    //   2 2
+    //   3 3 3
+    //   4 4 4 4
+
+    // int n;
+    // cin>> n;
+    // for (int i = 1; i <=n; i++)
+    // {
+    //     for (int j = 1; j <=i; j++)
+    //     {
+    //         cout<<" "<< i << " ";
+    //     }
+    //     cout<< endl;
+        
+    // }
+    
+    // 8. 1
+    //    2 3
+    //    4 5 6
+    //    7 8 9 10
+
+    // int count =1, n;
+    // cin>> n;
+    // for (int i = 1; i <=n; i++)
+    // {
+    //     for (int j = 1; j <=i; j++)
+    //     {
+    //         cout<<" "<< count << " ";
+    //         count++;
+    //     }
+    //     cout<< endl;
+        
+    // }
+
+
+    //9. 1
+    //   2 3
+    //   3 4 5
+    //   4 5 6 7
+    
+    // int n;
+    // cin>> n;
+    // for (int i = 1; i <=n; i++)
+    // {
+    //     int value = i;
+    //     for (int j = 1; j <=i; j++)
+    //     {
+    //         cout<<" "<< value << " ";
+    //         value++;
+    //     }
+    //     cout<< endl;
+        
+    // }
+
+    //10. 1
+    //    2 1
+    //    3 2 1
+    //    4 3 2 1
+
+    // int n;
+    // cin>> n;
+    // for (int i = 1; i <=n; i++)
+    // {
+    //     // int value = i;
+    //     for (int j = 1; j <=i; j++)
+    //     {
+    //         // cout<<" "<< value << " ";
+    //         cout<<" "<< i-j+1 << " ";
+            
+    //         // value--;
+    //     }
+    //     cout<< endl;
+        
+    // }
     
 
 }
