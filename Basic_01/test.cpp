@@ -257,11 +257,12 @@ int main(){
     // cin>> n;
     // for (int i = 1; i <=n; i++)
     // {
-    //     int value = i;
+    //     // int value = i;
     //     for (int j = 1; j <=i; j++)
     //     {
-    //         cout<<" "<< value << " ";
-    //         value++;
+    //         // cout<<" "<< value << " ";
+    //         // value++;
+    //         cout<< " "<< i+j-1 << " ";
     //     }
     //     cout<< endl;
         
@@ -287,6 +288,162 @@ int main(){
     //     cout<< endl;
         
     // }
+
+    //11. A A A A
+    //    B B B B
+    //    C C C C
+    //    D D D D
+    // int n;
+    // cin>>n;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     for (int j = 1; j <= n; j++)
+    //     {
+    //         char ch = 'A' + i -1;
+    //         cout<<" "<< ch << " ";
+    //     }
+    //     cout<< endl;
+        
+    // }
+
+    // 12. A  B  C  D  E 
+    //     A  B  C  D  E 
+    //     A  B  C  D  E 
+    //     A  B  C  D  E 
+    //     A  B  C  D  E
+
+    // int n;
+    // cin>>n;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     for (int j = 1; j <= n; j++)
+    //     {
+    //         char ch = 'A' + j -1;
+    //         cout<<" "<< ch << " ";
+    //     }
+    //     cout<< endl;
+        
+    // }
+
+    // 13. A 
+    //     B C
+    //     D E F
+    //     G H I J
+
+    // int n;
+    // char ch = 'A';
+    // cin>>n;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         cout<< " " << ch << " ";
+    //         ch++;
+    //     }
+    //     cout<< endl;
+        
+    // }
+    
+    // 13. A B C
+    //     B C D
+    //     C D E
+
+    // int n;
+    // cin>> n;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     for (int j = 1; j <= n; j++)
+    //     {
+    //         char ch = 'A' + i + j - 2;
+    //         cout<< " " << ch << " ";
+    //     }
+    //     cout<< endl;
+        
+    // }
+    
+
+    //14. A 
+    //    B B
+    //    C C C
+    //    D D D D
+
+    // int n;
+    // cin>>n;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         char ch = 'A' + i -1;
+    //         cout<<" "<< ch << " ";
+    //     }
+    //     cout<< endl;
+        
+    // }
+
+
+    //   15. A
+    //       B C
+    //       D E F
+    //       G H I J
+
+    // int n;
+    // char ch = 'A';
+    // cin>> n;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         cout<< " "<< ch << " ";
+    //         ch++;
+    //     }
+    //     cout<< endl;
+        
+    // }
+
+
+    // 16. A
+    //     B C
+    //     C D E
+    //     D E F G
+
+    // int n;
+    // cin>>n;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         char ch = 'A'+ i + j - 2;
+    //         cout<< " " << ch << " ";
+    //     }
+    //     cout<< endl;
+        
+    // }
+
+    
+    // 17. E 
+    //     D  E 
+    //     C  D  E 
+    //     B  C  D  E 
+    //     A  B  C  D  E 
+
+    // int n;
+    // cin>>n;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     char ch = 'A' + n - i;
+
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         cout<< " " << ch << " ";
+    //         ch++;
+    //     }
+    //     cout<< endl;
+        
+    // }
+
+    
+    
+
     
 
 }
