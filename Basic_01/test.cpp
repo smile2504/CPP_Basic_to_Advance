@@ -89,22 +89,26 @@ int main()
     int i= 2, p;
     cout<<"Enter a number: ";
     cin>>p;
+    bool isPrime = 1;
     while (i<p)
     {
         if (p%i == 0)
         {
-            cout<< p << " is not Prime number";
-            break;
-        }
-        else
-        {
-            cout<< p << " is Prime number";
+            isPrime = 0;
             break;
         }
 
         i++;
 
     }
+    if(isPrime == 0){
+        cout<< p << " is not a prime number";
+    }
+    else
+    {
+        cout<< p << " is a prime number";
+    }
+    
 
     
 }
